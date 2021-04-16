@@ -1,0 +1,9 @@
+ 1. Ошибка в коде на тесты: 3, 7, 10, 12.
+  Expected :false
+  Actual   :true
+  2. Ошибка в коде на тест: 19.
+  Expected :true
+  Actual   :false
+  3. Решение проблемы в изменение строки в public class Person:
+  была:  if (age < 19) {
+  стала: if (age >=13 && age <= 19) {
